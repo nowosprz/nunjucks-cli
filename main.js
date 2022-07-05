@@ -72,7 +72,7 @@ const render = (/** @type {string[]} */ files) => {
 		// https://mozilla.github.io/nunjucks/api.html#asynchronous-support
 		const res = nunjucksEnv.render(file, context)
 
-		let outputFile = file.replace(/\.\w+$/, `.${argv.extension}`)
+		let outputFile = file.replace(/\.tpl/, ``)
 
 		if (outputDir) {
 			outputFile = resolve(outputDir, outputFile)

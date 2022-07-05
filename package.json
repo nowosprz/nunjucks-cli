@@ -1,9 +1,9 @@
 {
-	"name": "nunjucks-cli",
-	"version": "1.0.0",
+	"name": "@pszem/nunjucks-cli",
+	"version": "1.0.1",
 	"description": "Nunjucks CLI wrapper and templates watcher",
-	"author": "Jeremy Bensimon",
-	"repository": "github:jeremyben/nunjucks-cli",
+	"author": "Przemyslaw Nowosad",
+	"repository": "github:nowosprz/nunjucks-cli",
 	"license": "MIT",
 	"main": "main.js",
 	"bin": {

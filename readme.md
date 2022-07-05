@@ -1,6 +1,7 @@
 # Nunjucks-cli
 
 Simple Nunjucks CLI Wrapper and templates watcher, to generate static HTML files.
+Based on: https://github.com/jeremyben/nunjucks-cli
 
 ## Installation
 
@@ -52,11 +53,6 @@ Output directory.
 
 Allows to keep track of file changes and render accordingly (except files starting by `_`).
 
-### `--extension <ext>`
-
-`-e <ext>`
-
-Extension for rendered files. Defaults to `html`.
 
 ### `--options <file>`
 
